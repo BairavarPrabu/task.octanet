@@ -2,65 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Student Information & Hackathon</title>
+    <title>ToDo List</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>College Hackathon 2024</h1>
-        <p class="tagline">Innovate. Collaborate. Create.</p>
-        <div class="social-icons">
-            <a href="#" target="_blank">Facebook</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">Instagram</a>
-        </div>
-    </div>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="https://designshack.net/wp-content/uploads/free-logo-templates.png" alt="ToDo List Logo">
+                <p>ToDo List</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="ToDo.html">Home</a></li>
+                <li><a href="main">Contacts</a></li>
+                <li><a href="main">Sign in</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div class="hackathon-info">
-            <h1>Hackathon Information</h1>
-            <p>
-                <strong>Hackathon Name:</strong> Innovative Hackathon 2024<br>
-                <strong>Date:</strong> February 6-7 , 2024<br>
-                <strong>Venue:</strong> Rajamani Auditorium, Psna College<br>
-                <strong>Description:</strong> Join us for a thrilling 24-hour coding marathon! Showcase your skills, collaborate with fellow students, and build innovative solutions to real-world problems.<br>
-                <strong>Instructions:</strong>
-                <ul>
-                    <li>Form a team of 3-5 members .</li>
-                    <li>Each team will be provided with access to the internet, power supplies, and refreshments.</li>
-                    <li>Participants are required to bring their own laptops and other necessary equipment.</li>
-                    <li>All submissions should be made before the deadline.</li>
-                    <li>The hackathon will be evaluated based on creativity, technical difficulty, and real-world applicability.</li>
-                </ul>
-            </p>
-        </div>
-
-        <div class="student-info">
-            <h1>Student Registration</h1>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter student name"><br>
-                
-                <label for="std">Standard (Year):</label>
-                <input type="text" id="std" name="std" placeholder="Enter standard (e.g., 3rd year)"><br>
-                
-                <label for="class">Class:</label>
-                <input type="text" id="class" name="class" placeholder="Enter class (e.g., BSc Computer Science)"><br>
-                
-                <label for="roll-number">Roll Number:</label>
-                <input type="text" id="roll-number" name="roll-number" placeholder="Enter roll number"><br>
-            </form>
-        </div>
-
-        <div class="hackathon-image">
-            <h1>Hackathon Image</h1>
-            <img src="https://i.pinimg.com/originals/a9/26/a4/a926a47c72b595c857329c7574625b41.jpg" alt="Hackathon Image" id="hackathon-image">
-            <p>Image of the recent college hackathon event.</p>
-        </div>
-
-        <div class="registration-button">
-            <button onclick="alert('Registration Successful!')">Register Now</button>
+    <div class="main" style="background-image: url('https://slidebazaar.com/wp-content/uploads/2022/08/Travel-powerpoint-template-jpg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <div class="content" style="background-image: url('https://marketplace.canva.com/EAFiUst1r_Y/1/0/1131w/canva-gray-illustrative-travel-blank-page-a4-document--j7URcNwX-s.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <div class="container todo-container">
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 1">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 2">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 3">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 4">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 5">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 6">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 7">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 8">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+                <div class="todo">
+                    <input class="todo_value" type="text" placeholder="Task 9">
+                    <input class="todo_checkbox" type="checkbox">
+                </div>
+            </div>
         </div>
     </div>
 </body>
